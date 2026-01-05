@@ -40,7 +40,7 @@ function App(): JSX.Element {
         <Stack.Navigator>
           <Stack.Screen
             name="Home"
-            component={Login}
+            component={Home}
             options={{ headerShown: false }}
           />
           <Stack.Screen
